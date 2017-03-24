@@ -13,9 +13,7 @@ class Backer
     def back_project(project)
       @backed_projects << project
       # adds the backer to the project's backers array
-      project.backers << self 
-
-
+      project.backers << self
     end
     #   Donation.new(self.project)
     # end
